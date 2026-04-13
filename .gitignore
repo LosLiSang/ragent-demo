@@ -1,0 +1,10 @@
+# Maven build output
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# API keys and secrets
+ragent-demo-config/src/main/resources/application.properties
