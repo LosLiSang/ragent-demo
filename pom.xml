@@ -26,6 +26,8 @@
         <module>ragent-demo-prompt</module>
         <module>ragent-demo-tika</module>
         <module>ragent-demo-embedding</module>
+        <module>ragent-demo-milvus</module>
+        <module>ragent-demo-well-prompt</module>
     </modules>
 
     <dependencyManagement>
