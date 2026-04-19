@@ -28,6 +28,7 @@
         <module>ragent-demo-embedding</module>
         <module>ragent-demo-milvus</module>
         <module>ragent-demo-well-prompt</module>
+        <module>ragent-demo-function-call</module>
     </modules>
 
     <dependencyManagement>
