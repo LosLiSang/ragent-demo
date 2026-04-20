@@ -18,6 +18,8 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.10.0</junit.version>
+        <spring-ai.version>1.0.0</spring-ai.version>
+        <spring-boot.version>3.4.12</spring-boot.version>
     </properties>
 
     <modules>
@@ -29,6 +31,7 @@
         <module>ragent-demo-milvus</module>
         <module>ragent-demo-well-prompt</module>
         <module>ragent-demo-function-call</module>
+        <module>ragent-demo-mcp-server</module>
     </modules>
 
     <dependencyManagement>
@@ -98,6 +101,11 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
                     <version>3.3.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
