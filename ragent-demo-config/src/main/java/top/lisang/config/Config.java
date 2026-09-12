@@ -4,9 +4,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+
 public class Config {
 
     private static final Properties props = new Properties();
+    
     public static final String API_CHAT_URL;
     public static final String API_EMBEDDING_URL;
     public static final String API_KEY;
